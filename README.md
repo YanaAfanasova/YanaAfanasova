@@ -1,11 +1,69 @@
-<h1 align="center">Привет 👋, меня зовут Яна</h1>
-<h3 align="center">frontend разработчик, интересуюсь разработкой нейросетей</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Профиль Яны</title>
+<style>
+  /* Стили для заголовка */
+  h1 {
+    color: #4CAF50; /* Зеленый цвет для заголовка */
+    font-size: 32px;
+    text-align: center; /* Центрирование заголовка */
+  }
 
-- 📫 How to reach me **yana.ork44@gmail.com**
+  /* Стили для подзаголовка */
+  h3 {
+    color: #4CAF50; /* Зеленый цвет для подзаголовка */
+    font-size: 24px;
+    text-align: center; /* Центрирование подзаголовка */
+  }
 
+  /* Стили для списка контактов */
+  ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0;
+    text-align: center; /* Центрирование списка */
+  }
 
-<p align="left">
-</p>
+  /* Стили для языков и инструментов */
+  .languages-tools {
+    display: flex;
+    justify-content: center; /* Центрирование содержимого */
+    flex-wrap: wrap;
+  }
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+  /* Стили для отдельных элементов в языках и инструментах */
+  .languages-tools img {
+    margin: 10px; /* Отступы между элементами */
+  }
+</style>
+</head>
+<body>
+  <!-- Заголовок -->
+  <h1>Привет 👋, меня зовут Яна</h1>
+
+  <!-- Подзаголовок -->
+  <h3>frontend разработчик, интересуюсь разработкой нейросетей</h3>
+
+  <!-- Контактная информация -->
+  <ul>
+    <li>📫 How to reach me <a href="mailto:yana.ork44@gmail.com">yana.ork44@gmail.com</a></li>
+  </ul>
+
+  <!-- Языки и инструменты -->
+  <h3>Languages and Tools:</h3>
+  <div class="languages-tools">
+    <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
+    </a>
+    <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
+      <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
+    </a>
+    <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
+    </a>
+    <!-- Добавьте остальные элементы здесь -->
+  </div>
+</body>
+</html>
